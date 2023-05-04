@@ -2,18 +2,24 @@
 <html lang="en">
 
 <head>
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $("h2").html("JQuery Text");
-            });
-        });
-    </script>
     <link rel="stylesheet" href="projects.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
+    <style>
+        #panel, #flip {
+            padding: 5px;
+            text-align: center;
+            background-color: #050503;
+            border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -43,7 +49,8 @@
 
     <button>JQuery Button</button>
 
-    <h1>More projects will be added to the list (soon)</h1>
+    <div id="flip">There will be more projects (click on me for a suprise)</div>
+    <div id="panel">Jquery</div>
 
 </body>
 

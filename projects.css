@@ -2,6 +2,8 @@
     box-sizing: border-box;
     background-color: black;
     color: white;
+    max-width: 100%;
+    height: auto;
 }
 
 li a {
